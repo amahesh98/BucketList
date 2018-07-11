@@ -12,6 +12,8 @@
 		CF6ECBB620F52C7A00A32544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6ECBB420F52C7A00A32544 /* Main.storyboard */; };
 		CF6ECBB820F52C7B00A32544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6ECBB720F52C7B00A32544 /* Assets.xcassets */; };
 		CF6ECBBB20F52C7B00A32544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6ECBB920F52C7B00A32544 /* LaunchScreen.storyboard */; };
+		CF6ECBC320F52D4A00A32544 /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6ECBC220F52D4A00A32544 /* AddItemVC.swift */; };
+		CFBDBB4D20F54C7200B72930 /* BucketList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFBDBB4B20F54C7200B72930 /* BucketList.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CF6ECBB720F52C7B00A32544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF6ECBBA20F52C7B00A32544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6ECBBC20F52C7B00A32544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6ECBC220F52D4A00A32544 /* AddItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
+		CFBDBB4C20F54C7200B72930 /* BucketList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BucketList.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				CF6ECBB020F52C7A00A32544 /* AppDelegate.swift */,
+				CFBDBB4B20F54C7200B72930 /* BucketList.xcdatamodeld */,
 				CF6ECBB220F52C7A00A32544 /* ViewController.swift */,
 				CF6ECBB420F52C7A00A32544 /* Main.storyboard */,
+				CF6ECBC220F52D4A00A32544 /* AddItemVC.swift */,
 				CF6ECBB720F52C7B00A32544 /* Assets.xcassets */,
 				CF6ECBB920F52C7B00A32544 /* LaunchScreen.storyboard */,
 				CF6ECBBC20F52C7B00A32544 /* Info.plist */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF6ECBB320F52C7A00A32544 /* ViewController.swift in Sources */,
+				CFBDBB4D20F54C7200B72930 /* BucketList.xcdatamodeld in Sources */,
+				CF6ECBC320F52D4A00A32544 /* AddItemVC.swift in Sources */,
 				CF6ECBB120F52C7A00A32544 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +342,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFBDBB4B20F54C7200B72930 /* BucketList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFBDBB4C20F54C7200B72930 /* BucketList.xcdatamodel */,
+			);
+			currentVersion = CFBDBB4C20F54C7200B72930 /* BucketList.xcdatamodel */;
+			path = BucketList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CF6ECBA520F52C7A00A32544 /* Project object */;
 }
